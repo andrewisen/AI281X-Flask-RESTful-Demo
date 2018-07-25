@@ -6,7 +6,7 @@ import urllib.request, urllib, json
 
 # NOTE:
 # 		Building-ID for U-huset: 	f3b6cf22-e7e9-491f-9214-7b79761beba7
-# 		URL:						https://www.kth.se/api/places/v3/building/{id}
+#		Source:						https://www.kth.se/places/building/f3b6cf22-e7e9-491f-9214-7b79761beba7
 
 # SLL Error:
 # If you are using "newer versions" of Mac OSX then you might get the error:
@@ -14,9 +14,13 @@ import urllib.request, urllib, json
 #
 # This is probably because your version of Python doesn't include certifications.
 # Install SLL certifications for newer Python, e.g. I use Python 3.7, by running the following in Terminal:
-#		/Applications/Python\ 3.7/Install\ Certificates.command 
+#		/Applications/Python\ 3.7/Install\ Certificates.command
+#
+# Credit: https://stackoverflow.com/questions/49764664/python-3-6-certificate-failure-after-installing-certifi
+
 
 def getJSON(api_key):
+	# Based on: https://stackoverflow.com/questions/49466754/http-request-with-python-typeerror-an-integer-is-required-got-type-dict?rq=1
 	headers = {'Accept': 'application/json', 'api_key': api_key}    
 	url = 'https://www.kth.se/api/places/v3/building/f3b6cf22-e7e9-491f-9214-7b79761beba7'
 	req = urllib.request.Request(url, None, headers)
