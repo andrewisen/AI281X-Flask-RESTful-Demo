@@ -1,6 +1,6 @@
 # AI281X-Flask-RESTful-Demo
 
-A demo for the extension Flask-RESTful. 
+A demo for building an API using the extension Flask-RESTful
 
 ## Getting Started
 
