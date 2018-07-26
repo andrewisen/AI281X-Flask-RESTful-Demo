@@ -2,7 +2,7 @@ import helloJSON as hJ
 import getAppKey
 
 def main():
-	api_key = getAppKey()
+	api_key = getAppKey.main()
 	data = hJ.getJSON(api_key)
 
 	selectedRooms = ["Hörsal","Övningssal","Break-Out område"]
