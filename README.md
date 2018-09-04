@@ -61,7 +61,7 @@ localhost:5000/<app-key>
 ```
 ## Deployment - KTH Places
 
-Returns a places in [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/) based on hard-coded filters.
+Returns a places in [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/) (in Terminal) based on hard-coded filters.
 
 Open and Edit the Python-file for more information.
 
@@ -69,7 +69,6 @@ Open and Edit the Python-file for more information.
 
 ```
 python3 handleJSON.py
-localhost:5000
 ```
 
 ## Built With
