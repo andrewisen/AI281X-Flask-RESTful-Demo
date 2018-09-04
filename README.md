@@ -60,8 +60,16 @@ python3 app.py
 localhost:5000/<app-key>
 ```
 ## Deployment - KTH Places
+** NOTE: ** This is not an web-based application. Everything is done in Terminal or CMD.
 
-Returns a places in [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/) (in Terminal) based on hard-coded filters.
+Returns all rooms in [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/). Requires an API Key from 
+[KTH IT-Support](https://www.kth.se/student/kth-it-support) .
+
+```
+python3 helloJSON.py
+```
+
+Returns a places in [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/) based on hard-coded filters.
 
 Open and Edit the Python-file for more information.
 
