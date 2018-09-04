@@ -4,22 +4,23 @@ A demo for building an API using the extension Flask-RESTful
 
 ## Getting Started
 
-Lorem Ipsum
+This is a demo showcasing Flask and how it can be used to build an API from scratch.
 
 ### Prerequisites
 
-Lorem Ipsum
+Basic knowledge of programming, API and Python is recommended.
+A working Python 3 enviroment is requred.
 
 ```
-Python 3.4 or newer
-Pip
-Flask
-Flask-RESTful
+Python 3.4 or newer - Required
+Pip - Recomended
+Flask - Required
+Flask-RESTful - Required
 ```
 
 ### Installing
 
-Installing Python
+Installing Python 3 in your prefered way
 
 ```
 python3
