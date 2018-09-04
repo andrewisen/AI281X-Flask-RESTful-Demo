@@ -65,7 +65,7 @@ python3 app.py
 localhost:5000/<app-key>
 ```
 ## Deployment - KTH Places
-** NOTE: ** This is not an web-based application. Everything is done in Terminal or CMD.
+**NOTE:** This is not an web-based application. Everything is done in Terminal or CMD.
 
 Returns all rooms in [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/). Requires an API Key from 
 [KTH IT-Support](https://www.kth.se/student/kth-it-support) .
@@ -78,7 +78,7 @@ Returns a places in [Undervisningshuset](https://www.akademiskahus.se/vara-kunsk
 
 Open and Edit the Python-file for more information.
 
-** NOTE: ** This requires knowledge on how the KTH Places API works!
+**NOTE:** This requires knowledge on how the KTH Places API works!
 
 ```
 python3 handleJSON.py
