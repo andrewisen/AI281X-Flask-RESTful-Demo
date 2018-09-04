@@ -1,6 +1,6 @@
 # AI281X-Flask-RESTful-Demo
 
-A demo for building an API using the extension Flask-RESTful
+A demo for building an API using the extension Flask-RESTful.
 
 ## Getting Started
 
@@ -12,21 +12,25 @@ Basic knowledge of programming, API and Python is recommended.
 A working Python 3 enviroment is requred.
 
 ```
-Python 3.4 or newer - Required
-Pip - Recomended
-Flask - Required
-Flask-RESTful - Required
+Python 3.4 or newer (Required)
+Pip (Recomended)
+Flask (Required)
+Flask-RESTful (Required)
 ```
 
 ### Installing
 
-Installing Python 3 in your prefered way
+Installing Python 3 in your prefered way.
+E.g. Homebrew.
+
+Check your Python version.
 
 ```
-python3
+python3 -V
 ```
 
-Installing Flask via pip
+Installing Flask in your prefered way.
+E.g Via pip
 
 ```
 pip ...
@@ -34,12 +38,13 @@ pip ...
 
 Lorem Ipsum
 
+```
+Foo Bar
+```
 
-## Deployment - FLASK
+## Deployment - FLASK REST API
 
-Lorem Ipsum
-
-CD into Dir
+CD into working directory.
 
 Simple Flask App. Returns static website with "Hello World".
 ```
