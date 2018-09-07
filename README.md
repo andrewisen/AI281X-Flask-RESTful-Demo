@@ -1,6 +1,9 @@
 # AI281X-Flask-RESTful-Demo
 
-A demo for building an API using the extension Flask-RESTful.
+A simple demo for building an API using the extension Flask-RESTful.
+The goal is to show the potential for [Undervisningshuset](https://www.akademiskahus.se/vara-kunskapsmiljoer/byggprojekt/vara-byggprojekt/stockholm/undervisningshuset/).
+
+A [Docker](http://docker.com) example is availbe [here](https://github.com/andrewisen/AI281X-Docker-Flask-RESTful-Demo).
 
 ## Getting Started
 
