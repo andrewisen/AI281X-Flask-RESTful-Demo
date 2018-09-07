@@ -12,7 +12,7 @@ This is a demo showcasing Flask and how it can be used to build an API from scra
 ### Prerequisites
 
 Basic knowledge of programming, API and Python is recommended.
-A working Python 3 enviroment is requred.
+A working Python 3 enviroment is required.
 
 ```
 Python 3.4 or newer (Required)
@@ -47,7 +47,7 @@ Foo Bar
 
 ## Deployment - FLASK REST API
 
-CD into working directory.
+CD into working directory. Run the following:
 
 Simple Flask App. Returns static website with "Hello World".
 ```
